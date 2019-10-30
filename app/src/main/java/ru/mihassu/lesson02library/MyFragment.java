@@ -122,5 +122,6 @@ public class MyFragment extends Fragment {
     @Subscribe
     public void onEvent(MyMessageEvent event){
         textView.setText(event.myMessage);
+
     }
 }
